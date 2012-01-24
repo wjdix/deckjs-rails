@@ -2,6 +2,6 @@ require "deckjs-rails/version"
 
 module Deckjs
   module Rails
-    # Your code goes here...
+    require 'deckjs/rails/engine'
   end
 end

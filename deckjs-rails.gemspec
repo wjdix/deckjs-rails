@@ -13,6 +13,9 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "deckjs-rails"
 
+  s.add_dependency "modernizr-rails"
+  s.add_dependency "jquery-rails"
+
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
